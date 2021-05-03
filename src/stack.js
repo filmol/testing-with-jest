@@ -9,8 +9,7 @@ exports.push = function (x) {
 
 // Returnerar det översta elementet i stacken och tar bort det
 exports.pop = function () {
-    return stack.splice(0,1)
-    // Ett medvetet fel som tar bort det första elementet i listan.
+    return stack.pop()
 }
 
 // Returnerar det översta elementet i stacken

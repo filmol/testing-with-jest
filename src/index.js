@@ -10,7 +10,7 @@ window.onload = function () {
 
     pop.addEventListener("click", function() {
         var text = "Tog bort " + stack.pop();
-        // Medvetet fel -användaren får aldrig en popup alert.
+        alert(text);
     });
 
     push.addEventListener("click", function() {
