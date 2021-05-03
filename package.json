@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/filmol/testing-with-jest#readme",
   "dependencies": {
+    "geckodriver": "^1.22.3",
+    "selenium-webdriver": "*",
     "underscore": "^1.13.1"
   },
   "devDependencies": {
